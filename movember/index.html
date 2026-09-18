@@ -85,6 +85,9 @@
       <input type="text" id="customName" maxlength="40" placeholder="Best if less than 10 letters">
     </div>
 
+    <label>Guernsey # (optional)</label>
+    <input type="text" id="guernseyNumber" inputmode="numeric" maxlength="2">
+
     <button type="submit" class="cta">Generate Reference Code</button>
   </form>
 </section>
@@ -244,6 +247,7 @@ document.getElementById('donationForm').addEventListener('submit', async e=>{
   const email = document.getElementById('donorEmail').value.trim();
   const amount = document.querySelector('input[name="giftType"]:checked').value; // "40" or "70"
   const custom = document.getElementById('customName').value.trim();
+  const guernsey = document.getElementById('guernseyNumber').value.trim();
   const code = generateCode();
   const team = displayName(selectedTeam);
 
@@ -251,7 +255,7 @@ document.getElementById('donationForm').addEventListener('submit', async e=>{
   const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwaQ9g87x0-8d7Rbz3cYv0qyeWXQZ9Mp269tkjS1x8Kg5ml7JrRCeD_m_Y-Ifm2s25Q_A/exec";
 
   // Send exactly what your sheet/script expects:
-  const params = { Name:name, Team:team, Email:email, Customisation:custom, Code:code };
+  const params = { Name:name, Team:team, Email:email, Customisation:custom, Guernsey:guernsey, Code:code };
 
   try{
     const qs = new URLSearchParams(params).toString();
