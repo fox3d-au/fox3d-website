@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Movember 3D Prints — Thank-You Gifts</title>
+<style>
+  :root{
+    --bg:#f7f7f8; --card:#fff; --muted:#555; --accent:#0077cc; --secondary:#555;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#111;padding:20px;}
+  header{max-width:1100px;margin:0 auto;text-align:center;position:relative}
+  h1{margin:8px 0}
+  p.lead{color:var(--muted);margin:6px 0 10px}
+  p.note{color:#777;font-size:0.9rem;margin:0 0 14px}
+  a.donate-direct{
+    display:inline-block;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;
+    font-weight:700;text-decoration:none;position:sticky;top:10px;z-index:1000;box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:all .3s ease;
+  }
+  a.donate-direct.shrink{padding:6px 12px;font-size:0.9rem;box-shadow:0 2px 6px rgba(0,0,0,0.2)}
+
+  /* Grid */
+  .grid{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:1100px;margin:18px auto}
+  .team-box{flex:1 1 calc(25% - 12px);max-width:220px;aspect-ratio:1/1;border-radius:10px;border:1px solid #e5e7eb;
+    display:flex;align-items:center;justify-content:center;cursor:pointer;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.06);padding:12px}
+  .team-name{font-weight:900;font-size:1.05rem;text-align:center;line-height:1.05;word-break:break-word}
+  @media (max-width:920px){.team-box{flex:1 1 calc(33.333% - 12px);max-width:180px}}
+  @media (max-width:600px){.team-box{flex:1 1 calc(50% - 12px);max-width:220px}}
+  @media (max-width:400px){.team-box{flex:1 1 100%;max-width:320px}}
+
+  /* Panel */
+  .panel{max-width:760px;margin:20px auto;padding:16px;background:var(--card);border-radius:10px;border:1px solid #e7e7e7;box-shadow:0 6px 24px rgba(0,0,0,0.04)}
+  .preview{width:100%;display:flex;justify-content:center;align-items:center;padding:10px}
+  .preview-title{font-weight:900;font-size:2.2rem}
+  form{margin-top:12px;display:flex;flex-direction:column;gap:10px}
+  label{font-weight:600}
+  input[type="text"],input[type="email"]{padding:8px;border-radius:6px;border:1px solid #ccc;font-size:1rem}
+  .cta{background:var(--accent);color:#fff;border:none;padding:10px;border-radius:8px;font-weight:700;cursor:pointer}
+  .cta.secondary{background:var(--secondary)}
+  .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+
+  /* Popup */
+  #popupOverlay{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;justify-content:center;align-items:center}
+  #popupBox{background:#fff;padding:22px;border-radius:10px;max-width:380px;text-align:center}
+
+  footer{margin-top:30px;text-align:center;color:var(--muted);font-size:0.9rem}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Donate to Movember and Receive a Thank-You Print!</h1>
+  <p class="lead">Default prints: <strong>$40</strong> &nbsp;|&nbsp; Customised prints: <strong>$70</strong></p>
+  <p class="note">These prints are AFL-inspired but not officially licensed or endorsed by the AFL or its clubs.</p>
+  <a id="donateBtn" href="https://au.movember.com/donate/details?memberId=5242133#amount" target="_blank" class="donate-direct">Donate Directly to Movember</a>
+</header>
+
+<section class="grid" id="teamGrid" aria-label="Teams"></section>
+
+<section class="panel" id="panel" style="display:none;">
+  <div class="preview">
+    <div>
+      <div id="previewTitle" class="preview-title"></div>
+      <p style="text-align:center;color:#666;margin-top:8px">Colour and textures may vary due to filament and other factors.</p>
+    </div>
+  </div>
+
+  <form id="donationForm" autocomplete="on">
+    <label>Your name</label>
+    <input type="text" id="donorName" required>
+
+    <label>Your email</label>
+    <input type="email" id="donorEmail" required>
+
+    <label>Select gift type</label>
+    <div class="row">
+      <label><input type="radio" name="giftType" value="40" checked> Default Print ($40)</label>
+      <label><input type="radio" name="giftType" value="70"> Customised Print ($70)</label>
+    </div>
+
+    <div id="customField" style="display:none;">
+      <label>Custom name for back (optional)</label>
+      <input type="text" id="customName" maxlength="40" placeholder="Best if less than 10 letters">
+    </div>
+
+    <button type="submit" class="cta">Generate Reference Code</button>
+  </form>
+</section>
+
+<div id="popupOverlay">
+  <div id="popupBox">
+    <h2>Thank you — next step</h2>
+    <p id="popupMsg"></p>
+    <button id="copyBtn" class="cta">Copy Code</button>
+    <br><br>
+    <a id="goDonate" class="cta" href="https://au.movember.com/donate/details?memberId=5242133#amount" target="_blank">Go to Donation Page</a>
+    <br><br>
+    <button id="closeBtn" class="cta secondary">Close</button>
+  </div>
+</div>
+
+<footer>
+<!-- Informational note about AFL logos -->
+  <div class="note" style="margin:8mm auto 4mm; width:170mm; font-size:10.5pt; line-height:1.35;">
+    <!-- AFL logos / source note -->
+<p id="makerworld-link" style="text-align:center; margin:16px auto; font-size:14px; color:#000; max-width:900px; line-height:1.5;">
+  For legal reasons I’m unable to display official AFL logos or insignia.<br>
+  <span style="color:#0066cc; text-decoration:underline; cursor:pointer;"
+        onclick="window.open('https://makerworld.com/en/collections/2487073-afl-brick-men','_blank')">
+    You can view the original AFL Brick Men prints I sourced here.
+  </span>
+</p>
+
+    </a>
+  </div>
+  <p>All prints are provided as thank-you gifts for verified Movember donations. No commercial sales are conducted.</p>
+  <p style="margin-top:6px">Colour and textures may vary due to filament and other factors.</p>
+</footer>
+
+<script>
+/* Colour name → hex map */
+const COLOR_HEX = {
+  "Black":"#000000","White":"#FFFFFF","Red":"#E4002B","Yellow":"#FFD100","Gold":"#FFD100",
+  "Maroon":"#781F19","Brown":"#4D2004","Royal Blue":"#004C98","Cobalt Blue":"#0047AB",
+  "Deep Blue":"#003366","Purple":"#3B2D83","Teal":"#008C95","Silver":"#C0C0C0",
+  "Gray":"#808080","Orange":"#FF7F27"
+};
+
+/* Team → ordered list of colour names */
+const TEAM_COLORS = {
+  "Adelaide Crows":["Royal Blue","Red","Yellow"],
+  "Brisbane Lions":["Gold","Maroon"],
+  "Carlton Blues":["Deep Blue"],
+  "Collingwood Magpies":["Black","White"],
+  "Essendon Bombers":["Black","Red"],
+  "Fremantle Dockers":["Black","Silver","Purple","White"],
+  "Geelong Cats":["Royal Blue","White"],
+  "Gold Coast Suns":["Red","Yellow"],
+  "Greater Western Sydney Giants":["Gray","Orange"],
+  "Hawthorn Hawks":["Brown","Gold"],
+  "Melbourne Demons":["Red","Deep Blue"],
+  "North Melbourne Kangaroos":["Cobalt Blue","White"],
+  "Port Adelaide Power":["Black","Teal","White"],
+  "Richmond Tigers":["Black","Red","White","Yellow"],
+  "St Kilda Saints":["Black","Red","White"],
+  "Sydney Swans":["Red","White"],
+  "West Coast Eagles":["Royal Blue","Yellow"],
+  "Western Bulldogs":["Cobalt Blue","Red","White"]
+};
+
+const TEAMS = Object.keys(TEAM_COLORS);
+
+/* Helpers */
+function toHex(name){ return COLOR_HEX[name] || "#111111"; }
+
+/* Display name = all words except the last; if single-word, keep as-is (legal requirement) */
+function displayName(teamName){
+  const parts = teamName.trim().split(/\s+/);
+  return (parts.length <= 1) ? teamName : parts.slice(0, -1).join(" ");
+}
+
+/* Alternating letter colours across remaining colours; background uses first colour */
+function buildAlternatingNameHTML(shortName, colors){
+  const altHex = colors.slice(1).map(toHex).filter(Boolean);
+  if (!altHex.length){
+    // One-colour team: use white text for contrast
+    return `<span style="color:#FFFFFF">${shortName}</span>`;
+  }
+  let html = ""; let idx = 0;
+  for (const ch of shortName){
+    if (ch === " "){ html += " "; continue; }
+    html += `<span style="color:${altHex[idx % altHex.length]}">${ch}</span>`;
+    idx++;
+  }
+  return html;
+}
+
+/* Build grid */
+const grid = document.getElementById('teamGrid');
+
+function buildGrid(){
+  grid.innerHTML = "";
+  const order = TEAMS.slice().sort(()=>Math.random()-0.5);
+  order.forEach(team=>{
+    const colors = TEAM_COLORS[team] || [];
+    const bg = toHex(colors[0] || "White");
+    const short = displayName(team);
+
+    const box = document.createElement('div');
+    box.className = 'team-box';
+    box.style.background = bg;
+
+    const label = document.createElement('div');
+    label.className = 'team-name';
+    label.innerHTML = buildAlternatingNameHTML(short, colors);
+
+    box.appendChild(label);
+    box.addEventListener('click', ()=>openPanel(team));
+    box.tabIndex = 0;
+    box.addEventListener('keypress', e=>{ if(e.key === 'Enter') openPanel(team); });
+
+    grid.appendChild(box);
+  });
+}
+buildGrid();
+
+/* Panel */
+const panel = document.getElementById('panel');
+const previewTitle = document.getElementById('previewTitle');
+let selectedTeam = null;
+
+function openPanel(teamName){
+  selectedTeam = teamName;
+  const colors = TEAM_COLORS[teamName] || [];
+  previewTitle.textContent = displayName(teamName);
+  previewTitle.style.color = toHex(colors[0] || "Black"); // single-colour preview
+  panel.style.display = 'block';
+  window.scrollTo({top: panel.offsetTop - 10, behavior:'smooth'});
+}
+
+/* Gift type toggle */
+document.addEventListener('change', e=>{
+  if(e.target && e.target.name === 'giftType'){
+    document.getElementById('customField').style.display = (e.target.value === '70') ? 'block' : 'none';
+    if(e.target.value === '40') document.getElementById('customName').value = '';
+  }
+});
+
+/* Code generator — uses SLY prefix now */
+function generateCode(){
+  const d = new Date();
+  const hex = Math.floor(Math.random()*0xffff).toString(16).padStart(4,'0').toUpperCase();
+  return `SLY-${d.getFullYear().toString().slice(-2)}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}-${hex}`;
+}
+
+/* Submit + record to Google Sheet (headers: Timestamp,Name,Team,Email,Customisation,Code) */
+document.getElementById('donationForm').addEventListener('submit', async e=>{
+  e.preventDefault();
+  if(!selectedTeam){ alert('Please select a team first.'); return; }
+
+  const name = document.getElementById('donorName').value.trim();
+  const email = document.getElementById('donorEmail').value.trim();
+  const amount = document.querySelector('input[name="giftType"]:checked').value; // "40" or "70"
+  const custom = document.getElementById('customName').value.trim();
+  const code = generateCode();
+  const team = displayName(selectedTeam);
+
+  // Apps Script webhook URL (your latest deployment)
+  const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwaQ9g87x0-8d7Rbz3cYv0qyeWXQZ9Mp269tkjS1x8Kg5ml7JrRCeD_m_Y-Ifm2s25Q_A/exec";
+
+  // Send exactly what your sheet/script expects:
+  const params = { Name:name, Team:team, Email:email, Customisation:custom, Code:code };
+
+  try{
+    const qs = new URLSearchParams(params).toString();
+    const resp = await fetch(APPS_SCRIPT_URL + "?" + qs, { cache: "no-store" });
+    // Optional: read response for debugging
+    // const text = await resp.text(); console.log(text);
+  }catch(err){
+    console.error("Record failed", err); // still show code & continue
+  }
+
+  const display = `You selected the ${amount === "70" ? "Customised" : "Default"} print for ${team}.<br><br>
+                   <strong>Your Reference Code:</strong><br>${code}`;
+  document.getElementById('popupMsg').innerHTML = display;
+  document.getElementById('popupOverlay').style.display = 'flex';
+  document.getElementById('copyBtn').onclick = ()=>{ navigator.clipboard.writeText(code).then(()=>alert('Code copied!')); };
+});
+
+/* Popup controls */
+document.getElementById('closeBtn').onclick = ()=>{ document.getElementById('popupOverlay').style.display = 'none'; };
+
+/* Sticky donate button shrink */
+const donateBtn = document.getElementById('donateBtn');
+window.addEventListener('scroll', ()=>{
+  if(window.scrollY > 100) donateBtn.classList.add('shrink'); else donateBtn.classList.remove('shrink');
+});
+</script>
+
+</body>
+</html>
