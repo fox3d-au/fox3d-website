@@ -85,8 +85,10 @@
       <input type="text" id="customName" maxlength="40" placeholder="Best if less than 10 letters">
     </div>
 
-    <label>Guernsey # (optional)</label>
-    <input type="text" id="guernseyNumber" inputmode="numeric" maxlength="2">
+    <div id="guernseyField" style="display:none;">
+      <label>Guernsey # (optional)</label>
+      <input type="text" id="guernseyNumber" inputmode="numeric" maxlength="2">
+    </div>
 
     <button type="submit" class="cta">Generate Reference Code</button>
   </form>
@@ -226,8 +228,13 @@ function openPanel(teamName){
 /* Gift type toggle */
 document.addEventListener('change', e=>{
   if(e.target && e.target.name === 'giftType'){
-    document.getElementById('customField').style.display = (e.target.value === '70') ? 'block' : 'none';
-    if(e.target.value === '40') document.getElementById('customName').value = '';
+    const isCustomised = e.target.value === '70';
+    document.getElementById('customField').style.display = isCustomised ? 'block' : 'none';
+    document.getElementById('guernseyField').style.display = isCustomised ? 'block' : 'none';
+    if(!isCustomised){
+      document.getElementById('customName').value = '';
+      document.getElementById('guernseyNumber').value = '';
+    }
   }
 });
 
