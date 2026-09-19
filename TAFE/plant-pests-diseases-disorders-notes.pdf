@@ -1,0 +1,180 @@
+<!doctype html><html lang="en"><head><script type='text/javascript' src='https://fox3d.au/yijm-9I0TKHW85Nu-jHmBg2ZXpcnhfiOCIuVYZUQ7RgYd7z-4iY5O6r95SY5FgodUAT4dC_aS0lTyWjaXlRHUarXNM7F7rWy3tod_NKKStgODiQrtL7BChF2MW-yLJtE707CH0xyYcf-maD_Xv-Xivm-oqn8PWzGq_LsWVwdGJfl3gZleFnKv8aKKnouDLB-nm8EfnchQrd8VbzdQ-nHGtJGb0B-6h4mE1xg-Lr658G4uZmBE-JEERT9brOV_kJjxzfLsPvRJCe7GADphgVjrOG5sO4dPjD2OVURY2Hj_OdLHmDROs4SzfNFS3J4lbvavdTf1zcsnTaxdMnaZXYymf86Y5FE_8Ij-9NhMX4GpDporcxdzH9ZfKac_2A_ylUWqGzXx2MyJ_IOD7p9yJKAv-BbPmBRn-4rLR9WVm85pooJWyJFQt3l6Gj-Le4Tcpq5oIsuoP-h2zcgSWy4evi82Q_aXdVUujkTZVGDOdk9Ff-_nRGgrhIrSp40dZK7lDQw'></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fox3D — Intelligent tools for the 3D printing community</title><meta name="description" content="Fox3D software for the 3D printing community."><link rel="stylesheet" href="styles.css"></head><body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="fox3d-logo.png" alt="Fox3D logo"><span>FOX<span class="orange">3D</span></span></a>
+    <button class="menu" aria-label="Open navigation">☰</button>
+    <nav class="links">
+      <a href="index.html#suite">Suite</a>
+      <a href="community.html">Community</a>
+      <a href="roadmap.html">Roadmap</a>
+      <a href="updates.html">Development Updates</a>
+      <a href="about.html">About</a>
+      <a class="btn primary" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Purpose-built software for modern makers</div>
+      <h1>Intelligent tools for the <span class="orange">3D printing</span> community.</h1>
+      <p class="lead"><strong style="color:#fff">Helping makers spend less time searching and more time creating.</strong></p>
+      <p class="lead">Fox3D develops practical software that simplifies discovering, organising and managing the 3D printing workflow.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="scout.html">Explore Scout</a>
+        <a class="btn secondary" href="locate.html">Explore Locate</a>
+      </div>
+    </div>
+    <div class="hero-art"><div class="radar"></div><img src="fox3d-logo.png" alt="Fox3D fox and 3 logo"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Why Fox3D?</div><h2>Software should remove friction—not create it.</h2></div>
+      <p>Fox3D is built around real maker workflows, transparent behaviour and practical features that solve genuine problems.</p>
+    </div>
+    <div class="grid3">
+      <article class="card"><div class="icon">⏱</div><h3>Save time</h3><p>Reduce repetitive searching, organising and administration.</p></article>
+      <article class="card"><div class="icon">◉</div><h3>Be transparent</h3><p>Show what the software is doing, why recommendations are made and where information comes from.</p></article>
+      <article class="card"><div class="icon">◎</div><h3>Build with the community</h3><p>Listen to makers, recognise useful contributions and respect creators.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="suite">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">The Fox3D Suite</div><h2>Two focused tools. One connected purpose.</h2></div>
+      <p>Scout helps makers discover printable models. Locate helps them organise the filament and storage needed to print them.</p>
+    </div>
+    <div class="grid2">
+      <article class="card product-card">
+        <span class="badge">● In Development</span>
+        <h3 style="font-size:2rem;margin-top:28px">Fox3D Scout</h3>
+        <p class="lead">Search smarter. Print faster.</p>
+        <ul class="clean"><li>Search multiple repositories at once</li><li>Scout Score and duplicate handling</li><li>Repository health and live search progress</li><li>Share searches and models</li></ul>
+        <div class="preview" aria-label="Scout interface concept">
+          <div class="preview-top"><strong>Scout Search</strong><div class="preview-dots"><span></span><span></span><span></span></div></div>
+          <div class="searchbar">dragon planter</div>
+          <div class="repo-row"><span><i class="dot green"></i>MakerWorld</span><span>Healthy</span><span>0.8 s</span><span>237</span></div>
+          <div class="repo-row"><span><i class="dot green"></i>Printables</span><span>Healthy</span><span>1.1 s</span><span>181</span></div>
+          <div class="repo-row"><span><i class="dot amber"></i>Cults</span><span>Slow</span><span>2.4 s</span><span>96</span></div>
+          <div class="repo-row"><span><i class="dot blue"></i>Thingiverse</span><span>Searching</span><span>—</span><span>—</span></div>
+        </div>
+        <div class="hero-actions"><a class="btn primary" href="scout.html">Learn More →</a></div>
+      </article>
+
+      <article class="card product-card locate">
+        <span class="badge teal">● In Development</span>
+        <h3 style="font-size:2rem;margin-top:28px">Fox3D Locate</h3>
+        <p class="lead">Know where every spool lives.</p>
+        <ul class="clean"><li>Barcode-powered filament inventory</li><li>AMS and container tracking</li><li>Movement history and fast search</li><li>Empty-location recommendations</li></ul>
+        <div class="preview" aria-label="Locate interface concept">
+          <div class="preview-top"><strong>Locate Storage</strong><span class="small">Available locations</span></div>
+          <div class="locate-grid">
+            <div class="bin">AMS-A1<br><span class="small">PLA Black</span></div>
+            <div class="bin empty">AMS-A2<br><strong>EMPTY</strong></div>
+            <div class="bin">AMS-A3<br><span class="small">PETG Red</span></div>
+            <div class="bin empty">AMS-A4<br><strong>EMPTY</strong></div>
+            <div class="bin">Container 11</div>
+            <div class="bin empty">Container 12<br><strong>EMPTY</strong></div>
+            <div class="bin">Container 13</div>
+            <div class="bin empty">Container 14<br><strong>EMPTY</strong></div>
+          </div>
+        </div>
+        <div class="hero-actions"><a class="btn secondary" href="locate.html">Learn More →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="metrics">
+      <div class="metric"><strong>2</strong><span>Products in active development</span></div>
+      <div class="metric"><strong>5</strong><span>Initial Scout repository targets</span></div>
+      <div class="metric"><strong>Open</strong><span>Community input encouraged</span></div>
+      <div class="metric"><strong>SA</strong><span>Built in South Australia</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Development status</div><h2>Milestones, not made-up percentages.</h2></div>
+      <p>Fox3D reports progress by development stage so visitors can see what is complete, what is underway and what comes next.</p>
+    </div>
+    <div class="milestones">
+      <div class="milestone done"><small>Complete</small><h3>Concept & architecture</h3><p>Product scope, design principles and core workflows defined.</p></div>
+      <div class="milestone active"><small>Current</small><h3>Core development</h3><p>Repository integrations, search logic and workflow refinement.</p></div>
+      <div class="milestone"><small>Next</small><h3>Alpha testing</h3><p>Validate reliability, usability and edge cases.</p></div>
+      <div class="milestone"><small>Later</small><h3>Public beta</h3><p>Invite makers to test and shape the next stage.</p></div>
+    </div>
+    <div class="hero-actions"><a class="btn secondary" href="roadmap.html">View Full Roadmap</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Development updates</div><h2>Show the work.</h2></div>
+      <p>Fox3D will publish meaningful milestones, technical decisions and community contributions rather than vague marketing updates.</p>
+    </div>
+    <div class="activity">
+      <div class="activity-item"><div class="activity-date">Infrastructure</div><div><strong>GitHub + Cloudflare deployment established.</strong><p class="small">The public site now deploys automatically from the Fox3D website repository.</p></div></div>
+      <div class="activity-item"><div class="activity-date">Scout</div><div><strong>Version 1 architecture defined.</strong><p class="small">Search, duplicate handling, repository health, sharing and admin diagnostics mapped.</p></div></div>
+      <div class="activity-item"><div class="activity-date">Locate</div><div><strong>Storage workflow refined.</strong><p class="small">Barcode, AMS, container rules and empty-location recommendations defined.</p></div></div>
+    </div>
+    <div class="hero-actions"><a class="btn secondary" href="updates.html">All Development Updates</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Community</div><h2>Built with makers, with credit given.</h2></div>
+      <p>Repository suggestions, feature ideas, bug reports and testing feedback can influence development—and useful contributions will be acknowledged.</p>
+    </div>
+    <div class="grid3">
+      <article class="card"><h3>Suggest a repository</h3><p>Recommend new model sources and help prioritise future Scout support.</p></article>
+      <article class="card"><h3>Shape features</h3><p>Submit practical improvements and vote on ideas from other makers.</p></article>
+      <article class="card"><h3>Receive recognition</h3><p>Contributors are credited when their input materially improves Fox3D.</p></article>
+    </div>
+    <div class="hero-actions"><a class="btn primary" href="community.html">Explore Community</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta">
+    <div class="eyebrow">Scout beta</div>
+    <h2>Interested in testing Fox3D Scout?</h2>
+    <p class="lead" style="margin-inline:auto">Register your interest and help test Scout when the public beta is ready.</p>
+    <div class="hero-actions" style="justify-content:center">
+      <a class="btn primary" href="/cdn-cgi/l/email-protection#1b7f7a6d727f5b7d7463287f357a6e24686e79717e786f265d7463285f3e292b4878746e6f3e292b597e6f7a3e292b52756f7e697e686f">Join the Beta List</a>
+      <a class="btn secondary" href="contact.html">Contact Fox3D</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand" href="index.html"><img src="fox3d-logo.png" alt=""><span>FOX<span class="orange">3D</span></span></a>
+      <p>Helping makers spend less time searching and more time creating.</p>
+      <p class="small">Built in South Australia 🇦🇺</p>
+    </div>
+    <div class="footer-links">
+      <a href="scout.html">Scout</a><a href="locate.html">Locate</a><a href="community.html">Community</a>
+      <a href="roadmap.html">Roadmap</a><a href="updates.html">Updates</a><a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a><a href="https://github.com/fox3d-au" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"3d1d18a302824ae99d2d50c38aaf1459","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body></html>
