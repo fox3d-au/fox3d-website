@@ -1,180 +1,240 @@
-<!doctype html><html lang="en"><head><script type='text/javascript' src='https://fox3d.au/yijm-9I0TKHW85Nu-jHmBg2ZXpcnhfiOCIuVYZUQ7RgYd7z-4iY5O6r95SY5FgodUAT4dC_aS0lTyWjaXlRHUarXNM7F7rWy3tod_NKKStgODiQrtL7BChF2MW-yLJtE707CH0xyYcf-maD_Xv-Xivm-oqn8PWzGq_LsWVwdGJfl3gZleFnKv8aKKnouDLB-nm8EfnchQrd8VbzdQ-nHGtJGb0B-6h4mE1xg-Lr658G4uZmBE-JEERT9brOV_kJjxzfLsPvRJCe7GADphgVjrOG5sO4dPjD2OVURY2Hj_OdLHmDROs4SzfNFS3J4lbvavdTf1zcsnTaxdMnaZXYymf86Y5FE_8Ij-9NhMX4GpDporcxdzH9ZfKac_2A_ylUWqGzXx2MyJ_IOD7p9yJKAv-BbPmBRn-4rLR9WVm85pooJWyJFQt3l6Gj-Le4Tcpq5oIsuoP-h2zcgSWy4evi82Q_aXdVUujkTZVGDOdk9Ff-_nRGgrhIrSp40dZK7lDQw'></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fox3D â€” Intelligent tools for the 3D printing community</title><meta name="description" content="Fox3D software for the 3D printing community."><link rel="stylesheet" href="styles.css"></head><body>
-<header class="header">
-  <div class="container nav">
-    <a class="brand" href="index.html"><img src="fox3d-logo.png" alt="Fox3D logo"><span>FOX<span class="orange">3D</span></span></a>
-    <button class="menu" aria-label="Open navigation">â˜°</button>
-    <nav class="links">
-      <a href="index.html#suite">Suite</a>
-      <a href="community.html">Community</a>
-      <a href="roadmap.html">Roadmap</a>
-      <a href="updates.html">Development Updates</a>
-      <a href="about.html">About</a>
-      <a class="btn primary" href="contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
-<main>
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <div class="eyebrow">Purpose-built software for modern makers</div>
-      <h1>Intelligent tools for the <span class="orange">3D printing</span> community.</h1>
-      <p class="lead"><strong style="color:#fff">Helping makers spend less time searching and more time creating.</strong></p>
-      <p class="lead">Fox3D develops practical software that simplifies discovering, organising and managing the 3D printing workflow.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="scout.html">Explore Scout</a>
-        <a class="btn secondary" href="locate.html">Explore Locate</a>
-      </div>
-    </div>
-    <div class="hero-art"><div class="radar"></div><img src="fox3d-logo.png" alt="Fox3D fox and 3 logo"></div>
-  </div>
-</section>
+%PDF-1.4
+%“Œ‹ ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <div><div class="eyebrow">Why Fox3D?</div><h2>Software should remove frictionâ€”not create it.</h2></div>
-      <p>Fox3D is built around real maker workflows, transparent behaviour and practical features that solve genuine problems.</p>
-    </div>
-    <div class="grid3">
-      <article class="card"><div class="icon">â±</div><h3>Save time</h3><p>Reduce repetitive searching, organising and administration.</p></article>
-      <article class="card"><div class="icon">â—‰</div><h3>Be transparent</h3><p>Show what the software is doing, why recommendations are made and where information comes from.</p></article>
-      <article class="card"><div class="icon">â—</div><h3>Build with the community</h3><p>Listen to makers, recognise useful contributions and respect creators.</p></article>
-    </div>
-  </div>
-</section>
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-<section class="section" id="suite">
-  <div class="container">
-    <div class="section-head">
-      <div><div class="eyebrow">The Fox3D Suite</div><h2>Two focused tools. One connected purpose.</h2></div>
-      <p>Scout helps makers discover printable models. Locate helps them organise the filament and storage needed to print them.</p>
-    </div>
-    <div class="grid2">
-      <article class="card product-card">
-        <span class="badge">â— In Development</span>
-        <h3 style="font-size:2rem;margin-top:28px">Fox3D Scout</h3>
-        <p class="lead">Search smarter. Print faster.</p>
-        <ul class="clean"><li>Search multiple repositories at once</li><li>Scout Score and duplicate handling</li><li>Repository health and live search progress</li><li>Share searches and models</li></ul>
-        <div class="preview" aria-label="Scout interface concept">
-          <div class="preview-top"><strong>Scout Search</strong><div class="preview-dots"><span></span><span></span><span></span></div></div>
-          <div class="searchbar">dragon planter</div>
-          <div class="repo-row"><span><i class="dot green"></i>MakerWorld</span><span>Healthy</span><span>0.8 s</span><span>237</span></div>
-          <div class="repo-row"><span><i class="dot green"></i>Printables</span><span>Healthy</span><span>1.1 s</span><span>181</span></div>
-          <div class="repo-row"><span><i class="dot amber"></i>Cults</span><span>Slow</span><span>2.4 s</span><span>96</span></div>
-          <div class="repo-row"><span><i class="dot blue"></i>Thingiverse</span><span>Searching</span><span>â€”</span><span>â€”</span></div>
-        </div>
-        <div class="hero-actions"><a class="btn primary" href="scout.html">Learn More â†’</a></div>
-      </article>
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-      <article class="card product-card locate">
-        <span class="badge teal">â— In Development</span>
-        <h3 style="font-size:2rem;margin-top:28px">Fox3D Locate</h3>
-        <p class="lead">Know where every spool lives.</p>
-        <ul class="clean"><li>Barcode-powered filament inventory</li><li>AMS and container tracking</li><li>Movement history and fast search</li><li>Empty-location recommendations</li></ul>
-        <div class="preview" aria-label="Locate interface concept">
-          <div class="preview-top"><strong>Locate Storage</strong><span class="small">Available locations</span></div>
-          <div class="locate-grid">
-            <div class="bin">AMS-A1<br><span class="small">PLA Black</span></div>
-            <div class="bin empty">AMS-A2<br><strong>EMPTY</strong></div>
-            <div class="bin">AMS-A3<br><span class="small">PETG Red</span></div>
-            <div class="bin empty">AMS-A4<br><strong>EMPTY</strong></div>
-            <div class="bin">Container 11</div>
-            <div class="bin empty">Container 12<br><strong>EMPTY</strong></div>
-            <div class="bin">Container 13</div>
-            <div class="bin empty">Container 14<br><strong>EMPTY</strong></div>
-          </div>
-        </div>
-        <div class="hero-actions"><a class="btn secondary" href="locate.html">Learn More â†’</a></div>
-      </article>
-    </div>
-  </div>
-</section>
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 15 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-<section class="section">
-  <div class="container">
-    <div class="metrics">
-      <div class="metric"><strong>2</strong><span>Products in active development</span></div>
-      <div class="metric"><strong>5</strong><span>Initial Scout repository targets</span></div>
-      <div class="metric"><strong>Open</strong><span>Community input encouraged</span></div>
-      <div class="metric"><strong>SA</strong><span>Built in South Australia</span></div>
-    </div>
-  </div>
-</section>
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 16 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <div><div class="eyebrow">Development status</div><h2>Milestones, not made-up percentages.</h2></div>
-      <p>Fox3D reports progress by development stage so visitors can see what is complete, what is underway and what comes next.</p>
-    </div>
-    <div class="milestones">
-      <div class="milestone done"><small>Complete</small><h3>Concept & architecture</h3><p>Product scope, design principles and core workflows defined.</p></div>
-      <div class="milestone active"><small>Current</small><h3>Core development</h3><p>Repository integrations, search logic and workflow refinement.</p></div>
-      <div class="milestone"><small>Next</small><h3>Alpha testing</h3><p>Validate reliability, usability and edge cases.</p></div>
-      <div class="milestone"><small>Later</small><h3>Public beta</h3><p>Invite makers to test and shape the next stage.</p></div>
-    </div>
-    <div class="hero-actions"><a class="btn secondary" href="roadmap.html">View Full Roadmap</a></div>
-  </div>
-</section>
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/PageMode /UseNone /Pages 11 0 R /Type /Catalog
+>>
+endobj
+10 0 obj
+<<
+/Author (Fox3D / TAFE student resource) /CreationDate (D:20260919002039+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260919002039+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (Plant Pests, Diseases and Disorders - Class Notes) /Trapped /False
+>>
+endobj
+11 0 obj
+<<
+/Count 5 /Kids [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R ] /Type /Pages
+>>
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1695
+>>
+stream
+Gau0D;0/3d&:Vs/fV]Zq-Qr`uR(T7eF1mu:gT*JY0D?ZCCifo<9#@b"fAEa8?+Wg8]>MT*gDJ:d]DM!).i<s7@fF&S!+*t0p5&g.@(lc`!tOo]n7mFFnS38[8gj0Ph>JC6QD`[U!hN)`&]`3WM/j)<75qI,l3Rj8-r)"CVErF)Nd!E9H.&>E8%=9KrR3:,JXPgsft*Zi8E"(c(6>q4Ut*.-jKC9;)s/fpk/kKh+?s0)]i[j68!j7,i"+FP4!7\KJh0=J75O_Y%Y<QF9H"(CT!/Wak9WOQh:j<!^]u2oS?XW!+ATgjMI&eEQqu+D1gc0l_0]me]nT$gV6JCb0D&86;B!/;G&qE8"+;5*S/jm)i[d]HNe*3=dKh"W=H\(En.=S%+[:?06i'RB,VKu\KBLWiG2e/S=rXAs^372PR#-T%=R5R`Kt#dXc^7LHr\imq991et#WLcM6aT5=55]SX'\ZdqGt`]!jL[\>_g1mOKq"&#H(G.91lW[#OUUaMKsu<l.j(9maZ`FGQUCeI]\G/^n%_rO8nc>E47C[=Hm\?URnhMT]qs*c'Kuqp8iaH/_NZ1s&iq9`Z;`f[>NdR(oZDumZ68Xdi9WX2P<F*lMB^mdHF["/'(nNcffaHUU/ltT/:`LJ(B6YI)hS?64X?&)kc8I#1OVPj+fRlu.W#kc=N_pn98WBX'!LMX0(Et\`Br/,_k'$:E1*O\c%(1?iRJdkO1d<S$r4t,q2Fm.N..f-SgbtXO-B\cKp829$Xfor7jV3<[`Y1M52tHGe5u9,=<<^N1LkGZ#b>qb7VpC)*6(L'pO#"[L1S>r.5l,7AlmfP^K?f<n"al:\Kr.\7j0hpreDtb9V_UmLYXkZduD$@b)(;%#XqnN9B`Km=($AcpnF'N%QQn)3qS"sYf?JE]U>Gr%+Xfl]+ftJ`e)ZA;eqVD[DIss@kK(jE/E]>7IE>0QqA6KFbaGRahh=N/_@;BFk]Zcepskj.BgS=]#,'SWRDUdrYc+qX@!^h6)].Y%.@Dq$DWM_TgE/-Z@,Su&`j<k>UtMZV:V+k7"^Okg6qfh4%2P?Tc2)i(37c4lM.tI(KM7mOifJ^C@IoE9LU69dR5!Be@gC;S;3k*HJ:OA8`CmB@u.)5CX,Gfo$Ph^M8V1%,-d*o*KmY7$3qbWBNJUkBrI;<oaj8IClj4PTmP(?)s>\ti-s&*Zk6mF3J(?u<fndJ3_)>$Y@MuGEoS\i%H"40Xc..36GQbG_Wo=17M-V6@"WNBF]%dU2HGm"!gr?nMiZXpj6q1g7*,^trC2\+TspS$1utDXk+Sf_Tdf$I:RX+U;'%t_cioGR(6D;&/jUH+dg_2C=C9M*E#9XWjKcS6m)Hki\-A=Ecj6sU1ibY-iVN\c15&f<=HdO">,7_)c.XJje+"?n#?:^if/O?N,Ae[6fFa/+"]<mYJ&Iq';,<#CGWk#f/3FT=OeTgG@@2"+.a/8#Yq]jXGFjG5@52si?tWFB)c9A&$r1p.3Y!RL,LJP:!,P'RI&ciDj7%+LP'#LInoH5=ADETLH[UHb2P*\#YD'hFWkuKbV>9Mq?CuQZbjs-c-/*)qr<[]3:0k6IaGth1o<<l=Da!I>mgm/,YiFY:UXt[]p"[HFGM%JtfTCNmmm9Y]:O=XlKkR0CF[s2.gh??&<k'KR9Fd+S<&5L7*^d;]bGD")*OnsC?ge]el9DEQ%lj~>endstream
+endobj
+13 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1060
+>>
+stream
+Gatm<>u03/'Rf.Ggda9%C$[fdib8fN-3ia)`Er7I'"@Pp`0oumrV*qg#LG2b)Hg(pUiq-HYKo?q/qFjHAGoXg!2hUi:C%L=ZT/R40pmBCo@_O[UMWXY1mCkGrB4Vcbi/[JQ50X8pmn4fA7-1j"(XK>8tq\")$O23$-O/Lh8&PK5:1"sL=rKH3K2n9osJJhW%rrd;1ljb'c:A%D^t8XB"qaIEJV.aE"SB4UJCVO!.E8n)hNS)T5T;A3K<SHJQE:=7hgO;/1#fK&X$dViK#-"`Z@q>/i2`Gs5WFmFE@gpD`VaS?H@U$`B66fNRuGPJHu>nV41S3(D#-0BVQQZb\B-:8b*k(0k9re+WP^s?GOGA#IfY8(q*`M"!reV6(&o2UU>_Xg^Bsj#$:<tk,+ITG[&'jkm(X'[X-kjb@!:_&SDq[=cnJIO)@H[hTL'C[C"Z;_H:LE^jXm&V7<pOF"5A=?jXF0#<(ht,7uI9(B(+Kms="-S?d+qe2nn;"3?8.XRHSSecSO7"G?8j.2l?/"b,,q$Q9Gj%hrD-Z4=k*JmC7)du?jUdWA8iaegJ\,`D6q[g8GBAaucifMdc?""Y@oCF"aE.]fuBP!,"0E%;EsMKDYNhHQYBa<QWq)dEp'fY0EmGX0Nb'ul(lKBqKYIo[9"!.8L_W16ZQ/.X+!dVmtnS/0tg>cJ8#XQgTc-tkS7]G:s#](Sb5SeSl)qV+n0R.Em7of;+Kb)bV=cT0+a)66tUHL$daKS?a1PJ1<nO3f/BdS,uXV`Q^UNCVuB)8ZXgZf^OiP0lCff25:D6E+:2ErleX_-EH6.]mgY[J/-,>eOJMAA34VG=u(a5Y/aPTo2p[j8uh'0UIY-`n2XV,b,I8$sn@$a*5,7'nOZo\uu7h:)ff/,%W`N3e-3bVo5o;Y8!R3CN,`oenM8Q\EWAnO$h0(o0>%Ho*/MG`R%<C\Ng!SKU:AKl2bHc=?'<k_=^_.L-kL"1(@l(Y%2+NX`W`):a?N`@_Ra@EH+?om($#p_grM;`QQFIR6Za1_k.*'7t6rMfLmLYV'590Y:'ZHIfS_B1r'~>endstream
+endobj
+14 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1515
+>>
+stream
+Gatn'gMYb*&;KZN'SB`&MceBKP)R*>.;49LlYX;u9l='j[b+KPQDC&GmJ!OF*8GCn#UPG^3c[CoBDrbqTbsD4r8oTYX#6GT,a>+3hGBA*3N`=U\*I],5!.W#r/G8e*3VkXZ7P!mU3og<Bo_(eOY1]1>Q7$1*.<r;ELIUkV,`cA7?4i]RU,-Hlj]N7qW5\#Ra\)PC=0RP2hF%ePK!?hN3IU^>eHa&2d67?D4V/@7Ea.W=)9B8HgpgfJA6HF4G&f/)O3%mH&LGIGl*^caXN8dI`Tn[Ys3t9(4P97&s',0RU%4N8Y61<V?X<lLb!'h0h]hSm>*4%'@3FXR,_Bqe'G#OW)-HsFlsTtKQN2-o]G1,dY9sG#BX1t#q%a@n?e<O9gHq^@#-IM-d?&X2eR4qE:JE3@U4s1k`+F;f#"cCB^:H^22+&>a;cLOP*?,==V6u868i,fbNajS`0;?UOA\u$r\X?HZTOs^ZZj!!>b_`i$+$8X0$<IQm1^F9k)0An%hq6sc0ifQpMQI/0l-$LmOW5-%LF;jm8OW:Kj(u>_NEAh_@dPc&^:)D,EQ\ni's_B5Y)Z!&`@kdlCcp?&?*j&.hTEik?0A-?p'd.je?tiWtNo4eiC[(SUaUMiK@AmL[90AGW,Y2&Pe?n1WAJ&c>0\I*(t;XeLB@r_Q!#@B%i*@Z:Mh]lt)5e>*E`\*juMt?P?W(NN]P;?=HEQ4h3Za2Qm2()_-@^e4eABNR@-eO?Tg^GnEg%<^(MN_]c/R8%'4iT*^(4kM\hs_k;61_/pSjgt'=`EX!sT`WrQZ%CgM>5!fhH;2fkOAiE$Ani3/jh;^M8"76gJUNL2,GA"ZdS5nMnEFjl"S/]l@SY4[aUb?,&?c,C=Se,B+$\n>8'kHEL=qsJ4#6Xa3[]Dj&[h1$a8m9<`S6cZ5U%Q49j6R\dWn2q$ep7C2)GWcR7WS-lN>)`UW((E,bPo!7dUfYKF:lptc3a-`*bFH>iren2gA9NI21*+7E:r41,u(`2&V!*[J*F/ilZ(s;IT1@FcuV)>*Du9>N7^^AI7C@,Usii>l>mY.8_?M5g7H\nWKl=4N]r=BCOpu22iPB=C+ZRFA!u(sb^ADl(^cK$]10?a@mDjk7\^3'mu/7mr$XYkp4kq(RBKa$(S,hm<asu#S5E+9'&;<rZ\*AD[o^%dX^Dob@gRU&`qNV+CiC:s(QYZqhGoP,Xq;_7BHKu&HGY9P<N$HXU+n:I%b1RQZb%'cmG[\WOJF@XeG'ep19SZ[j"ttO^eoccEM(Si6>T&C!.)hr5GrSP$g@dgC4MI0>\/8+ZD"Lkoq&G?%dlVQ99q#>8T1g<F?Z)N`X.fl`/c3(8<`.FW:N!+Z`L7$MV#?1D/TR*#DD9i+-%XjWcog/S:?^3@;W2q_VG1+j<t\%%J,PtG(/HO'g"dIR.`3BP#83riU'<KDu%t(5+'(la6%c1&]X"*OB^8f23uDsX7j8m2<2i')"iR<BG$9_Eo:1fIBR7ka3G'ua4dR1^L3aJrrLYklam~>endstream
+endobj
+15 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1865
+>>
+stream
+Gatm<gNK&G'Re;/S4C&h;%Rpu:V!ls=m\m$He,k%7E2W-",KQG2uWU+!o'tmC,_q6EGRVMg"P0CAkihbH2BfXLb:&sp6HA9Beh((1S6#_l"4u,j^`4bXW_-3qE4@p&iqa%5DWh$a1E.tM,/G+DrBrZ#FmfW(V8\Ibk"1DG8E)^X1il2F@MIP[l8D$j1:Z#Z9D!j'XaHn_=8aaBiLj+q2-MkC%C!Sgj="aP5V<8M1m4)kOOZ6^V)g7",S4g71OjG"jB_WhT*ignl]?Bfb3;sc_)Pf$U9Via^dl9:HXNu9'E8$O#brS?!COj5P>RRL@TesC0@Q7p@.K1K6dJqb(<UDBC/I,j.3`B9]QGKY_AT;iI?qKjE303N@%j@UVH)je5U->CXUq,'i9k76uJq+*OEH8rum7RNX"P%K.'[k>u'W:Dp7g0#fCU8#lhuW(=QNOC%?PEH[tU<_*GZZMAH83]`I25V2@U)1iLN*Q=_rKHlY2ajain#SSf%dVbs:*@8,5d1sJqZ#ZX3fT3a[QRiib):#%=cWKp/W`fL29*[nnad`%KOWh$XgesC3h.*oUafo4A).a%-Kp$FJ>k":9Q*e7PrW2/k=SY1G6:0?N/+(D0V;2j4oCaE.dh"^K)J@TRaOcPYPl1/u_EDMZYl'C0X[oMRZJ.5L8\h,D.CJiZt[>W[KBg`d58j"#\X#sH66=-Fod2J8]*Z(51@RDkT1IepBb5;^.YK(QpV=[-?Mc<kq.VB3*V'U%Ie4<P=%cuBVONW@!nNcTFAV#UUR``1XROW%::9fe@N$_23J09VfgDD\&;t^=]m<i&eHYD'XUWcO-G(b'%1N1OM)`UFe^I\+.OWI]#>c3SRLs^>l(8\=8l$hG/QtKeDYi=Q`3Hh5%)cNRSHK9I'aMKV%XPMWrS=0jJeH<gA*PcN#)_N@h:7#"2<e?R$=cIH\0J4iK1P=I6qW&XR8Ho:l:2'9bPX>#R%nU(I%u0$UV4`KJ4"Q-I2e9D/&"%=GI\lG@`tpn/qnmP+J!\hiWM.qFf3Yu)[41-oqs2uXXrW#%,+PD4O@_6A&Xg<;!N8<%okCkM(8=4Pg.Hl8##uQM@b+pb;+Y`6*PD6!%#7K\n$H7a-U"!s"#`f]pO2&=ja=#t(,NPN,"6?9p:N(K)Un-%.K(m5A"-jp9!&WU]?"E#(h0Js$cd7]A.@g+YCl_"ll<$h`r[>aS[o=&Cr8&Y]uO[(>K`JIrF0/-#>Rb4mmVi?+TW7(qcN19o$FN4i$p`j4=:F0O=ou9RWVh1;6M#NH?O^tEUL>(HG39*9a\dRX\^`FK4[e!DJ3ur`;!c/D]SBJ3?%'`A_p7cn^b/%F-5X@[IhE.M`ne."([_!r7pMVT9G^slpq-:jYH:dX4u'%&l#@mL!Cju6@G,p1njff0mM*OQ'=;LLmk`ho!V>c.oie"^`;TL.121i?GaKhVK0(Xj&tUM\c>YkKCN;fB7'>.6@2ri%QiB"*ekMnIZ\WDV)Tjm<FLV40i!7/N#l/&3jZc^h;.FW,u<"40uEm>,qfr-;WnI]Un4@J(ON]-C.iWuP\G!$noL\A!)r'a16%[?R+AAL\H6h]>3Ct0oH7]KKqj*,G(Z$Qnf$!5Q?+;514MF+2\4j4,tr[tAHQpVk;bBnN,8&_:ZGW:XR)'ENeYn8^99S0.F7-7Ni89.ZHU$>D.:?FMh,&g2O?u15k\D'K*MA?>O'UNM#e4)+D5`g,M)n1lgkF@g2]k<p-%h4Gdhf@BYU5HBXLd-Ml5RiS]GO#RN7cc]lVp9S`=q]>dl`<>o,A8pTF5.`gh!Yk8e>b]J5-\M.FZZ*cI")2oAp2He]K!:HDW\9\Y2*\?6WlgM*kD*^!`uZ2LM_IfY$"agM~>endstream
+endobj
+16 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1016
+>>
+stream
+Gatm:gN)"%&:N^lp5rs=,0:Yfk,D(JQYC)'TRD$C!2[-baDslLoj&GF$mA2t#n.YBX)iGcB3-d[ph'2CRKIr-_8VcBj"O[;o8+!aD_RXQ*dZ('j;)2;2Y4k"EC_;sILns'a/9aCfE\a))d%_60LE;dEo7Q"r6WL?3V:AgdCY,@R!fg4?iX,0c%WHUe;2&#3KuN&"%JNd19#L'Z[8(13R0eGLrB1hP@Q*bka:8#o3;)8,uGL7++Jrs;fk.HELFb:HNCrbL(QleqhttO(PT_S&L.>OJO]b`N<Ymc&,h+!=c_.DRpbQpd5l3Yc!'E]KLjb"Ymiba)E&Y`3''SJ"n'7<(j!LVC/d]]\Gaaqho*b5,4*=j\5-cLYW$*_kd$FsR/eJT?dB@+h]n(WreA?m>$7W,'!-geX&@5sH'[?Y&ZVNOmN0Rc*qk9Ma%m8-Ke=l#?I.rZ/CR4bgfGomf@ekgH3"f9$Z(b`oOeG2a]uW-,uC^4F,$#X(i;]Vj_k06VX7!UjZ0EhWC4.olBdbcYnDa70BAT+89@HNY#Za5Bp(b^r^XhX;r\rW=[%VOOUDQNJC81?'=/C]%94qpR#^b1UH$qfZ-G,<L+KkKREI?ZYG[^`(*]"OM61YN)-ruNNBod4\!!K,0Lo/YKsm8RM6"ELWX$lAfVs8;c[Ci_lQuf]nic+En`_MWJD3j_lsf9d6d'[*XWD+/XVX?ZeXLKZ[^3?4Wn0.-mH2Ff(g&ji]*98e]"^QBSN+'5Z+0%:)k2$++m*+\[%`OS45Pn;UKC\?P'VL@6G!XH03UctKl7E<%VoY.gjihG]6K>TKX>eVm7T!"k>>\>E2msW&eu0AV/7LbrU3o]Wt!W:p6[*Y1@`)Eb3!m$=SLcT/?:<Vn6;1n<hWJfMb[sh)XADes,4LT;5bEc!qqY>Oq6)?@)j^]lSd=26L7%']@uO3nY\E$''r/fiuHXuY-9/OeS]J;,[UElpBd0$::T$.:AK/+B!O%C\P/;]QWC!N^P'M1JDNMf\0#2~>endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000526 00000 n 
+0000000731 00000 n 
+0000000936 00000 n 
+0000001141 00000 n 
+0000001346 00000 n 
+0000001415 00000 n 
+0000001748 00000 n 
+0000001832 00000 n 
+0000003619 00000 n 
+0000004771 00000 n 
+0000006378 00000 n 
+0000008335 00000 n 
+trailer
+<<
+/ID 
+[<7c5845cfbba1b3a4570d9f564baae45a><7c5845cfbba1b3a4570d9f564baae45a>]
+% ReportLab generated PDF document -- digest (opensource)
 
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <div><div class="eyebrow">Development updates</div><h2>Show the work.</h2></div>
-      <p>Fox3D will publish meaningful milestones, technical decisions and community contributions rather than vague marketing updates.</p>
-    </div>
-    <div class="activity">
-      <div class="activity-item"><div class="activity-date">Infrastructure</div><div><strong>GitHub + Cloudflare deployment established.</strong><p class="small">The public site now deploys automatically from the Fox3D website repository.</p></div></div>
-      <div class="activity-item"><div class="activity-date">Scout</div><div><strong>Version 1 architecture defined.</strong><p class="small">Search, duplicate handling, repository health, sharing and admin diagnostics mapped.</p></div></div>
-      <div class="activity-item"><div class="activity-date">Locate</div><div><strong>Storage workflow refined.</strong><p class="small">Barcode, AMS, container rules and empty-location recommendations defined.</p></div></div>
-    </div>
-    <div class="hero-actions"><a class="btn secondary" href="updates.html">All Development Updates</a></div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <div><div class="eyebrow">Community</div><h2>Built with makers, with credit given.</h2></div>
-      <p>Repository suggestions, feature ideas, bug reports and testing feedback can influence developmentâ€”and useful contributions will be acknowledged.</p>
-    </div>
-    <div class="grid3">
-      <article class="card"><h3>Suggest a repository</h3><p>Recommend new model sources and help prioritise future Scout support.</p></article>
-      <article class="card"><h3>Shape features</h3><p>Submit practical improvements and vote on ideas from other makers.</p></article>
-      <article class="card"><h3>Receive recognition</h3><p>Contributors are credited when their input materially improves Fox3D.</p></article>
-    </div>
-    <div class="hero-actions"><a class="btn primary" href="community.html">Explore Community</a></div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container cta">
-    <div class="eyebrow">Scout beta</div>
-    <h2>Interested in testing Fox3D Scout?</h2>
-    <p class="lead" style="margin-inline:auto">Register your interest and help test Scout when the public beta is ready.</p>
-    <div class="hero-actions" style="justify-content:center">
-      <a class="btn primary" href="/cdn-cgi/l/email-protection#1b7f7a6d727f5b7d7463287f357a6e24686e79717e786f265d7463285f3e292b4878746e6f3e292b597e6f7a3e292b52756f7e697e686f">Join the Beta List</a>
-      <a class="btn secondary" href="contact.html">Contact Fox3D</a>
-    </div>
-  </div>
-</section>
-</main>
-<footer class="footer">
-  <div class="container footer-grid">
-    <div>
-      <a class="brand" href="index.html"><img src="fox3d-logo.png" alt=""><span>FOX<span class="orange">3D</span></span></a>
-      <p>Helping makers spend less time searching and more time creating.</p>
-      <p class="small">Built in South Australia ğŸ‡¦ğŸ‡º</p>
-    </div>
-    <div class="footer-links">
-      <a href="scout.html">Scout</a><a href="locate.html">Locate</a><a href="community.html">Community</a>
-      <a href="roadmap.html">Roadmap</a><a href="updates.html">Updates</a><a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy</a><a href="https://github.com/fox3d-au" target="_blank" rel="noopener">GitHub</a>
-    </div>
-  </div>
-</footer>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"3d1d18a302824ae99d2d50c38aaf1459","r":1,"spa":2}' crossorigin="anonymous"></script>
-</body></html>
+/Info 10 0 R
+/Root 9 0 R
+/Size 17
+>>
+startxref
+9443
+%%EOF
+9 1 obj
+<<
+/PageMode /UseNone /Pages 11 0 R /Type /Catalog
+ /AF [18 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 18 0 R] >> >> >>
+endobj
+17 0 obj
+<< /Length 24280 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^Øjumb   jumdc2pa  €  ª 8›qc2pa   ^²jumb   Gjumdc2ma  €  ª 8›qurn:c2pa:4aa6e809-d352-49d9-ae87-7f528c07658a   ¢jumb   )jumdc2as  €  ª 8›qc2pa.assertions   	¹jumb   #jumd@Ë2»ŠH§*ÖôCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  €  ª 8›qc2pa.actions.v2    ãcbor¢gactions¤factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnameggpt-5-6gversionggpt-5-6dwhenx2026-09-19T00:20:39.188604ZrallActionsIncludedô   ¤jumb   (jumdcbor  €  ª 8›qc2pa.hash.data    tcbor¥jexclusions¢estart'ıflength^Ødnamenjumbf manifestcalgfsha256dhashX ºIÀ#+@‡ H—%Í€ÃËP.¬pÑ¡m-mbcpad@  ‰jumb   'jumdc2cl  €  ª 8›qc2pa.claim.v2   Zcbor¦jinstanceIDx,xmp:iid:f68db4fb-629d-48b5-93fc-f720a6b96d80tclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>ğ=W1’³¨NëLûÁŒt·'wÖĞ6Çe6ãñkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:4aa6e809-d352-49d9-ae87-7f528c07658a/c2pa.signaturercreated_assertionsƒ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>ğ=W1’³¨NëLûÁŒt·'wÖĞ6Çe6ãñ¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX ¡x:‚Ù«Á­=R¨…ÉW	Ë6úq"º×uõû™¢¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX ÀåÓäª¯ÒØ?Ú1–@…2ñ¦˜OIb¥ÿ g«¶ÓB=hdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  €  ª 8›qc2pa.signature   PcborÒ„Yè¢8$!‚Yˆ0‚„0‚l ¥üépŒò€1îDds0	*†H†÷ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0‚"0	*†H†÷ ‚ 0‚
+‚ ºjLM—ê‰¶Ñ¾^XNr¡™ßiq|å!#Ó¢5œL£J<ïn+¿æd®×„Ki$ZcÏêv
+²eÛ|<áşÁ3w¯'Ş; :´c‡˜ÍMœ¿´3DªT07F¸ıšyDsWU£c|İ¬X/æz®Ş¥˜Ã“NHğZøà|¤’KÕlºÊÂ*È’¾uÔ”gµWªjšm00,×UaŒjÒS¶ x^ECN’£€ñ¯[Ñ²ëş‹ïº×7	•«d-™É‡šø¿.Ğçc€–šy 7“6£5ÉHÉ,˜céD›5¬¹§SlœhsÈ
+9ÌIó £‚g0‚c0Uÿ0 0U#0€9=GÜ—¯ˆ{MsÍåî¤¥*0o+c0a09+0†-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0†http://ocsp-c2pa.ssl.com0U 00
++ƒè^0)U%"0 ++$
++ƒè^0UóMÔËrøF
+vG¥hOt0UÿÀ0	+ƒè^
++ƒè^
+03	+ƒè^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*†H†÷ ‚ ‚8—le¡7 ñùítºÕ¦[5õglÏ+fi@ÍõüÒrVßÊ•(êøfŞBC=øx h(‰­µîüõ2ÒŒ¸_çl€në[|—[0ç.B¸Æpšşş 	¬5FÕ ŒIE€Ãº’UÇZoÒëØy›–:¼D44}ôA¥3—/.lQR
+m=I°ËÇ†XÌÜî.éÆ9¸3\ Úî W3T.p(J%)O’|.Òúİg.zèPx9Qºƒ:Úˆ~#’õbXšåÂ¨s†ÅØqéï\d{‘î7/v˜xVdçoBÑ}’¼…jomd…Øÿ"–í¹ï²Ğ\„}h]5[K±ÅiHyæh Äa˜:LøÀ$yå¦hàïıÖÖ.-AduV_“”¶¡œŠ<¶ÀèmóÅCçv,h¤òæË‹ˆ•è{*r$=!Æcm/%€£™[ª)¥ıGêá÷kåû[P&m+¡‚]1õİb¨|2ÜLÇ¥,r0P€W“‚âè®³§¯Y4®rï*®x¬â3ìSµÉ™Ò(¨*7¡N«üÌ~X›'mEá´*œ½0W¡1. .ÉâÈTÛ¡’O¾$5˜ş/iÜ¸MãŞ/èlõÁŠâÓşrwÓ¨+ÔW—®‡Ø ¾“¶‰YS0‚O0‚7 '+cÈÌM-›„Qrlôœ^2Q®Ş0	*†H†÷ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0‚"0	*†H†÷ ‚ 0‚
+‚ Ë:´Í¸œË)V¸y§øköùØrÃ¦˜­*AÚa.GR½tQ¾]ìz‚¶Àûúè'¥‹èşbó`ñ_HÊss•äNnÌNz5ŞXá×‚ÜÒGCw›ßHˆyŸ£9¤YN^àNG—òuB×v=¶¤"ÜíÆoÔrFŒÖQÇµ·zò“ù#'Õ€PuŠp héç¼„(|œ*ê)©À/şÉvFU°/cê}ô°D¤@Ş@6\DŠTkWHÿ»o¤ÕêÂ×|Ø¼Îi¿  M“E;™.yÒÏŸ)»FÙxc0–3Qœ^“múå4JXx³)l]|¸u•<™w!{Ø´JëÚÍÇ
+ÖÉ¢Ş®—³¶Q–Ú’›Ã²»PÄş¶¤L•]-’jObåà*÷i œÕ¹“ ÚÑ»^OÆ¯ù)LĞÉìëó²qP{v'h‘ùPˆ¸w5ØÍ¡á×Ó)çJÆ‡TY$Âg²m	5ÛºÎ¸F¥à‹Úá§ŸjÎ`ÒÄ÷ÁŞsyUàp´ïêÌÇşv‰Nf
+iˆ-íÃF¢*äŒÔœWF-XbÕÊ¨ú~øÂÙajË5] “£²e¨/íï˜çü~ºHôª¡qü“¯ê§NsˆiÕBÀù„’…OËT³=:øİ)eyÊC–¸‡X–!ïÑ‘{ £‚&0‚"0Uÿ0ÿ 0Uÿ0)U%"0 ++$
++ƒè^0U9=GÜ—¯ˆ{MsÍåî¤¥*0U 00
++ƒè^0U#0€ü*Ju:€ú™c“ğsWì¾“°}Ã{0x+l0j0$+0†http://ocsp-c2pa.ssl.com0B+0†6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*†H†÷ ‚ Î6ú>ï–6-¯Ufÿ{+ kVõË­½*­¥¦ĞM£>“ä“iÕäŒ¨næ7Tâ%œìef(<3=¢š¢»ÍgdJç¾t!¡nÃ«&Ä;,ÚU¹ıGNàx›7ƒÄt;ÅGaïmAr¤Û]CSÉ–Nåà:ß¨İ.Ñ¯X—Öçô_r#<kÏ½9«Œ“¨§vY>á’õ÷ÙûFb«nnÔˆF ³/*j_¥NÚøÔüÌÙ£<©wE
+Áù˜¹9ËÌ¡qÀ*‚qÓäö%âQ!mÖßäSoJ}^ÀºÕwy!zÎí÷›¶²ŠBVkA*şkœ‹î£(Ï_óéĞdÖîÂ‰Kë’Ïõ¯Â'M¸‘¡7%™æı€Üô¼Ç7{¾´-gXğ/çÃ³‹qåDz0¶¥²u>[#~;ÓT¦:¹ÇÌ3Õj5zv/şWÚiø>?ïT‹{FÃcúíÄ/p„+öV‚ô§Ë$×l^${:½©X;i³œÒptÿ‹n&»Ã«EÇS–œGµÆF«^õüˆ‹h£5å|j•eµ«ë¹ÿº¸à›JG²Îì/‰}î¯œMÄÉÎõ2=÷&4ş"‹zíù^^g_Q[Û$VûÑY¡·Şšf	¶Ñ†.ú}~•y›Df|6…öõ£gsigTst2¡itstTokens¡cvalY‹0‚‡	*†H†÷ ‚x0‚t10	`†He 0‡*†H†÷	 xv0t
++ƒ¿0010	`†He  "£aÃ;pÜfhÀ¢IÆÒÎuÂÑK!
+]Â şèÜŸH¾Cúÿ120260919002105.958712Z0€	 Á"£_FO ‚f0‚ö0‚^ aÛF(2ŠŒJ·¿ş`ãl?q·0	*†H†÷ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0‚¢0	*†H†÷ ‚ 0‚Š‚ êÊÅ­”ığı'ŸÇx§aÊÿ)a*û¡ˆÍ_¨¢—‰/‹‘È¼°–=U‚Á–6j­‰ièÛ,D2ƒ¨
+Íwå5èî¨d[ş¸àç ¡(Ã5İ§7é"÷	M—š´„sÀ.|©PG( ´ğiğ°‡)zYş5BùÙiRJ 7òhÌñ-·‚– KF\=¤†¸KEf8¢NM'Ê•ºuÌN‡jŸtÃ $_Ä~\®şó•í ‘ß<õ†›*^ÖĞİÉúÈMÃÉ„ZI,ä8s`R¸LîÆó·¶Øİj©Î º]ÖÄ\5dò#S?be]p+ÔÉk	ERèWíZF]Ú]vœ%yhƒQ¤˜„u‘r˜UÿØãCb±íig'A¼Åòj+ƒIèá-4»9¯g½´•È²½EgÍrˆ”_UK,­¯í¥ô$¯w>ƒŠdQ‘Œ9–K°=®ú™¡>Œ=ğ¾6¡.õcµ £x0v0Uÿ0 0UÿÀ0U%ÿ0
++0U¤'T‚¢Š€{=Å†Í?pÙÂƒ™Qx0U#0€òğ°ÇT=#C…ÜÊsĞr€=¸¨0	*†H†÷ ‚  û$OAÀÀ¼˜²2  ™H5OÄFV~§>?¶¥#ù*H>àQE@xÁ»ƒN“PÉ›'–hßMÎòöÒy«ïêÁÚ?õ˜YæpÍ‰ôîG‹ªËìÿŒ~áFØ‘æœ¸ä4FÿaÒxø}89ãRí_fèsÀ r;ä¨«†*£7!ù;ß{\TØLÇj*KÏCt`€s£ÉÑw¯‡©ıµ±„jn¿ˆ*Îš¡š«¢‚H7ÅcQ—ÛR|ogÉiBÕÏõû­^‹âày<.ƒj¥è%A…íäÁ :şRPï‡ŞádÍUù! ß¶)ïŸ'nÑº4F«J"OçbwİE#İa-Â1)Ä¹~y«´WÔÁìÏá\{eI°ëM«¤Ç'@N¦´µÏ|Ã´C§vÓ^0cî¨®5(td«Z5ã[/:>N
+aÖ0MC›ÿN.Æ!¹>:, W0ujdK¢Ğ	Ñ× g&Amgøpv¸%&Vù‘&'ÃKI0‚~0‚f ÊÆÅÅÚ°¼ñN•¥ê¼0	*†H†÷ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0‚¢0	*†H†÷ ‚ 0‚Š‚ ‰¼Ô¹âÈ¡¾a»Ş<df~§¾œmÓ©0&<ôàk 9ß•4í©¢eHÛ7†2ƒÌ
+J Àó4l À˜Í+Ÿ¥ôË|Ù&Ş~ÉM¢ïc[‘æöY¨ÒúNùÙ8+ZÍ`Z˜˜¨×SÆãÖ.H¬CW	é”òGùlEŠ`·÷®/^¢5N…8…iŸ4ĞMØC=Í4müc“üÓp»JèvèjNfI íüø¾ïš·¨w¬ï·8Ì¹Ô*3ÄvÖ@wËşÇ]-@ÓŞ‹<ÀÖ@A™Ë”?,} kRüÊP·	GEá#Uú±OoT˜•ô}ºøhá"zÜŠ‘C‹¶.C±b ¾Ê$.ï¿¤ÑMè¸?1Ï&=Å PêòÙ$ díÕs.pxªŞV<ùÔ€¢è­¯öû¨£\Ëh«DÛ0wòÄ4tkUmÆ‡ûò2<qE÷ìPûşÖ1&»ĞÄMaâBÛ¯Ã+n_+æâ°ï\DÍÀs}¢é½m‚¼%e„0ií £{0y0Uÿ0ÿ 0Uÿ0U%0
++0Uòğ°ÇT=#C…ÜÊsĞr€=¸¨0U#0€XÂ@ <Gv+¨æn¨‘––È·Ùä0	*†H†÷ ‚ ’ì7\ŞlëdÚ®¡	0r®Ürõ;¼z=ÖÆá/öƒ3}èW@NL™ªkÔ™Ù‹ÛkÖLøÊĞY3Ó¡ 8\#ˆD$û‡áö“'¼¡íL_g]ÿ5«1Òì{Ô@C7OÂ„œºdÈ°¢~š6øáĞ‚³PC²àU½€”ÈYRNJtŞ]ÇEX›·ú0ª;ÜG¼Õ.,¹8c,yZ·İU­=BßˆÏñhşs ÔZ·Ş$—‘ÀçgşÜ¦
+ó¥F³QÏ¯_ãÈ¸@Æ½ãùÖKqĞd]ådÂKÀ^wÑ=Ç[Ï{ı””çKQÚûdô«ğ5”ñö¾~+İ²š=PİPÃ–dm«sŸ(;wĞ—íoEO±3._Fëƒ¶©a¼×‚®ø€oÂãi0æm|:D’+˜-¯Ü4Á¾¥*Hç‡ÈŞ8µ3Êã„Ppñ²KŞOö‘Ü_…úñæÑ×Ê§î´Ÿö!x)ğãpXw†¤:K—ƒFèÚÂjvÉ©Ë!E¾e± †.€¼YKM›Cm´×„àüğÕÈaCjÃñ!<„]ş;ÖØ#9E_qú2ı €•DµO åÃtıâN‡r†ôğQ‡½Ôµ+5l’¤;kjºıÀ;œvÂÕ9IÚã”>Pj×Lâ‰aïëÏÅÃ@npz80‚æ0‚Î P;l‰Œğ$3,÷Oû}‚ì0	*†H†÷ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0‚"0	*†H†÷ ‚ 0‚
+‚ ö’éÒº­á¬u¨VØª±³j’_–yõ’·-$ø¿À¯`¾ÁšÍyšÜlšş6šÁ˜¤?ä,º¥¥Ps³
+ÂùóÄI/x½Òì¼ç?ô›Ñò a¢,‰%ÊQù%œÒÆ/ô‰ÄAş&Óm5Íì»5`@¨…Q¾öî˜ñ*ØzkjÙ.Ùcóå\)Å†"ÁŠhÍë8©P–[#Cû8ÿB|;:¡Q/%ÉHÜ1ÿPrîğ|¡wÍoaó?¿nèÒ±¦6äk2ûşw¨^›\İİ1LeÿËAÎ(1SÊCÎHn}Öd³)ä´.:·TZrVWó¨j}ïæaİeÈH	I™2tğ
+¢Ìİ“ S¬#½‚… ±ï¾í¡w î:F3¢ì¯é1f´fo²‰“ ~•!ÎAø^ğéÍ¹ÀÕ3]xĞĞ'1ÏP0rsÚjÂÀ“Ï­Üd‡öûNˆvõ>ïÿ’,™w.öÜ˜¶	:ıô	Ç_Zé~H	+µŠƒò[<,¯‘¢A·RhÑ¿°ÀÚO`½î)ªí‡q\(Œˆ£%cEØü{alFT;\É°‚¯ƒÈ±#?Ÿ[î¢×Tµ*S®»…Û¦ú—ì„‰róz@É¶…XG[ñ$a9¢LŞØÆ¨"ò¿[L,Ë £f0d0Uÿ0ÿ0Uÿ0UXÂ@ <Gv+¨æn¨‘––È·Ùä0U#0€XÂ@ <Gv+¨æn¨‘––È·Ùä0	*†H†÷ ‚ Xø‘˜òlaşÈ†Ö[„¦Ö¾¸¦]]IË¸¡)Í-¸Xùğ„‰=<øoÕj´*¢U’ğg™^µTûšF€ãQ SÀÁˆWŞï‚U~ãô}ë&üƒÿ!¨Á¬ŞÛ“«ÍĞ0v:“Îªg9.€tßmğ~v/éêPA‹8=låà>î/ÛdT6^¾bE¶Ñ!´€<ŒëÚœÖJ©ÕTe[kÑX~ÀI‡ëëK_’;”×š†ö¡YÎGğ8¬Ã°tdÑÀR;¡±{(kái—ø(;'ÿ®¤÷eË ôê¹½”ÎDâ˜±
+HhîU©!¥`şÊÖ}Ñ{† œó¨xĞÆÚ@.È\b¨*ÁûVçy¯ìåÛÓpşFÌc¨dñ<é¯¥d¼^¿…-°Îã¹Ó¤×R»p‹†û.¿
+öÒU+#B+C\ì¡‚a?Ïqí°÷—éäËÂ<ü¬w·¶Ü ÁLé‰²²/Ã~’dœµ„ŞÌ–ı‰°KµC}Òé­†ıÙ-Ÿ½ îÀ´GV#|H‘Ng‰ {bÁÉ^UñöÆQ#Woï‡¾ Fy¾”±È (•Šˆ&UfRïÙKº¨ZéÂ,­ŸÃ\Bó¡õ'dyqŒ
+Zı¹ùEypájµ7–XıE¿T%Œƒ=Ù&3#ĞXw¦¸1‚h0‚d0“0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAaÛF(2ŠŒJ·¿ş`ãl?q·0	`†He  ‚%0	*†H†÷	1*†H†÷	0/	*†H†÷	1" wş¯MøaÉOƒK4l´ü-B!½³8|©BI‘0Õ*†H†÷	/1Å0Â0¿0¼ ½O¹²L6gˆnïAámşÙ"¿[’JĞ¢Ä`F"z0—0¤}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAaÛF(2ŠŒJ·¿ş`ãl?q·0	*†H†÷ ‚€§%}!ÚJëNví³Ö  D¹Á	ÓÖÔÌá\)À>»$Y¡¹kn?ÉÔp¶lµà½hø…Hµk°)µÓ;¹K`„‚ĞÚÙÌ,õIä¢.1ˆ]ê»ÎÓ±—ÕÊgœŒÂtN4³Ğrı`8¶3êcC.ïÆûvçĞH5±azHßXşzÆú"æ™ü¨ò/JYS+ğ—İìıÙ;ıiÖ*µV]„-æxM‰¸×O»R¦ıè	2YU‚/£ræ%³=3R34©½	¬?FV-7%àÀYúc­…¾ Y¬œ8ş¹ÆœbØ+‡ºÓP¸àP‹®¿ßõ-Fäw²ÕÔãş¤" ØÖùÀ_«‘Dš"â¾¿†m„ÿ_ óAş]C-Ø/Feé¹çMáÈ™-¤¯üİ¥ö-£T´HnFg«6|¥]ì¶ãıyüÿG³†Sš'¯&•ëBr	uÁŸöuÆXµ.8‡n	UbÄì¼£È©Ä";q?}erVals¡hocspValsY×0‚Ó
+  ‚Ì0‚È	+0‚¹0‚µ0é¢=ªªxúöLú^jÑ@MåTò®20260918220309Z0˜0•0I0	+ ß‚7S^SØ3±à=$5ñuæá
+9=GÜ—¯ˆ{MsÍåî¤¥*¥üépŒò€1îDds€ 20260918220309Z 20260925220308Z¡"0 0	+020160920220309Z¡#0!0	+0ú$Êš¦•ÌÓêŸƒ,ÍiY0	*†H†÷ ‚ C~º}?.pQ¨GˆÜdã/Mç›6€‰°¦`©§cçØJe®Íªk—@è» RóÏ;^VVŞ¹—½Oàñ=ş@~h¬.hÓ@¡¨¯È¶p6”?8ä<—n‰\ ˜ÀÜ[SÕ¤ÏúxÔÓ¢„VˆÅ-ÍÚó|ÏJ¹FYèQ“?©_¢ööÏNŒA_
+“~{›ª:ß£µŒÓ•™@cdßÆZ†¨OğÈÈ7hŞ…{^ZA±-ú›Õ\×Çüğ.İR
+èıŞ«Êù!a#"“¿5UmÍw¥|¸ß¶9à¦Ãxù=Ğ1×ó…[ĞøÓkÆ˜ºË»RcıÀ‡ÒGçõ[v¤u¡£ô×—“íŠı]%$3àìì2`”’9Û‚¾†û§¶ò©tâ|6–X+ÎÒ·7÷àõ¯My¿ÙëÌÒNfêHÀ4¸íÍ£ñ„aw³pñUcLe—6­;¨wz3“Îçíô¬Æòå?±áA‘BæJò™ÉcŸ
+$t X ‚10‚-0‚)0‚ ZJ²?Ğ(ÆşK³?n=ã'º0	*†H†÷ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260102201415Z270102201414Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0‚¢0	*†H†÷ ‚ 0‚Š‚ ¢P“AæJKŞ›¦•t&X<ìRü»”2ÍÃÆPßĞ½œÆnp‹#—×ŒîÌ|Vîg¾ùšÀ’°ëº¥3ÿmiƒ/ˆ-í°K],›¹¸e$cî°$`
+èøyÆÓa5[Œ—XŸ³Œ\ØäÆ¦ĞCğ³§ÓTÙlˆ÷§¸ÄØnı1(Ş	.'õsÙw¦ÕPš Ù¼Ë2ÅF¹ü¢UMî ›¬hjÁ?8*zØÓ]º´³ëU)îìÒ7Ÿ®Å6©œ°·ŞD*‹èP§ €y{%ÏÙ9òE›wºx	 ¦N{@1ıê"h‡€Ä‚!äOZòóˆ¤K‰*~L$&© šÉ|îkb…"2îÖÜ+ÒßÖF4v ‚(x¾*İäÖj*wÛtz5'¦‡Á¸ğ:SªšÖ+“¯ã›·eÒ&0J¥¾Êñ‹Z4¦¡Ò…r8X9Äì>2„ß7yÖ0Ó7xæèÍ’én+nì0ë28.©<Ò-å £‡0„0Uÿ0 0U#0€9=GÜ—¯ˆ{MsÍåî¤¥*0	+0 0U%0
++	0U=ªªxúöLú^jÑ@MåTò®0Uÿ€0	*†H†÷ ‚ »s¦U„£hPëñ l×É)„>¨/í
+» ë«ËÁ¸†·0%Hmóá½¡M(Ò+e`DÜ¶«U?×İ…şğ—[$,ì­KKô»	ú°à°°ıDr´jİcèë²ÖÔÇñç‹ßßlÄ	¢ı=sXÁ()¢k`i0);U´Œ©¤©p>nrÄv0i‚O%´OUÎéHÏ_‹ÍğVkßÜ†6ğ5Á7•s¸í¶¨D¾ö—ŞI¼¡>r'Ğ=!|R\P©ÇÜ©û÷m°*& ”ßd…Œ§=Š:1t‘!áìJß…hÎa©¤k23ÓhæÉ¿³üÿ•ñ×ÂeJlNGş¨`”whAÎN(D¥Æ˜‡¨5òfª$½jÁ® kŞt£w&e§¥Â(%ı>©åI¹ÿthrGPûtš"h…Œ¿ƒ œÙãm¢<\ÇN¥vÒÿÂªÅ®´ü*Bl'¨´Ö9Ë™XËÃ±ü6è5ÔË^É˜˜Îè‚‹íXaºa‘Ñ©zÉ>Xàü”HLtæÏÔ|³òè#Kè0h»'ì¹ö	¶íy“å
+‚µÇç.Æ…k“¥AY)”ºXÓo–MŸQ3‘?À¸PÏµº`ˆé7
+L–Ÿ#xÚÁÊÅ–>lú_ 7Vß	!˜’y÷À¿ãÎ’§«,W=AÔ‰à?cpadY&u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     öY &¸0zıv“BğpøÒ~¸íB+ÖĞ.‡óš¡å”\(Í’ksSö‹¹.kIøâöÄK…”:—ÌÌ'	E¿›xOÏ“tñ4p`£yê¸é'Şº×÷‹W P:zÔ¿r§Çæ@%Š¼Å-g ±ir¸'\”ì¦¿Øÿ»ÿ6“M¥Ìä<AwŠÛ+B>¼¬^ËÃ7¶;mL÷¸{óBÚÎ¬òĞÜ¡é ¦^ı~…£ıkâfƒ0½ÍqŒ²8‡:ë@²õ-w¸†"çCì°y1)Í^á²ã\ëuá ˜Ò‘ÅR]L.º¬;µFj¶‹H›
+ô¯-Å‘ç
+endstream
+endobj
+18 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 17 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+9 1
+0000009997 00001 n 
+17 2
+0000010152 00000 n 
+0000034535 00000 n 
+trailer
+<< /Size 19 /Root 9 1 R /Prev 9443 /ID [<7c5845cfbba1b3a4570d9f564baae45a><7c5845cfbba1b3a4570d9f564baae45a>] >>
+startxref
+34731
+%%EOF
