@@ -37,9 +37,11 @@ input,select{font:inherit;font-size:17px;padding:13px 14px;border:1px solid #b7c
 .custom.show{display:grid}.help{font-size:14px;color:#46556a}
 .submit{text-align:center;grid-column:1/-1;margin-top:4px}
 .button{display:inline-block;background:linear-gradient(90deg,#0c67ca,#1687ef);border:0;color:white;font-weight:800;font-size:20px;border-radius:8px;padding:14px 34px;text-decoration:none;cursor:pointer}
+.button:disabled{background:#b8c0ca;color:#eef1f4;cursor:not-allowed;box-shadow:none;opacity:.78}
+.button.donate{background:#111;color:#fff;margin-top:8px}
 .submit p{color:#46556a}
 .source{text-align:center;background:linear-gradient(#f8fafc,#eef2f6);padding:22px 42px 25px}
-.source h3{font-size:20px;margin:0 0 12px}.collection{min-width:500px;max-width:100%}
+.source h3{font-size:16px;font-weight:600;color:#667085;margin:0 0 10px}.collection{min-width:0;max-width:100%;background:none;color:#536274;border:1px solid #c8ced7;font-size:14px;font-weight:600;padding:9px 16px}
 .designer{display:flex;align-items:center;justify-content:center;gap:10px;margin:22px 0 8px}
 .designer img{height:34px;width:auto}.designer strong{font-size:21px}
 .notes{border-top:1px solid #c8ced7;margin-top:22px;padding-top:15px;text-align:left;color:#435063;font-size:14px;line-height:1.5}
@@ -99,15 +101,16 @@ input,select{font:inherit;font-size:17px;padding:13px 14px;border:1px solid #b7c
   </div>
 
   <div class="submit">
-    <button class="button" type="submit">Generate Reference Code</button>
+    <button id="generateBtn" class="button" type="submit" disabled>Generate Reference Code</button>
     <p>You will receive a unique code to use when donating to Movember.</p>
+    <a class="button donate" href="https://au.movember.com/donate/details?memberId=5242133#amount" target="_blank" rel="noopener noreferrer">Donate Directly to Movember ↗</a>
   </div>
 </div>
 </form>
 </section>
 
 <section class="source">
-  <h3>You can view the original AFL Brick Men prints I sourced here.</h3>
+  <h3>Original AFL Brick Men source</h3>
   <a class="button collection" href="https://makerworld.com/en/collections/2487073-afl-brick-men" target="_blank" rel="noopener noreferrer">AFL Brick Men Collection on MakerWorld ↗</a>
   <div class="designer"><span>Designed by</span><a href="https://makerworld.com/en/@Phantom78" target="_blank" rel="noopener noreferrer"><img src="data:image/png;base64,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" alt="P78"></a></div>
   <a href="https://makerworld.com/en/@Phantom78" target="_blank" rel="noopener noreferrer">View Phantom78's MakerWorld profile</a>
@@ -203,10 +206,29 @@ document.addEventListener("change",e=>{
   document.getElementById("customFields").classList.toggle("show",c);
   document.getElementById("defaultOption").classList.toggle("selected",!c);
   document.getElementById("customOption").classList.toggle("selected",c);
-  if(!c){document.getElementById("customName").value="";document.getElementById("guernseyNumber").value=""}
+  if(!c){document.getElementById("customName").value="";document.getElementById("guernseyNumber").value=""} updateGenerateButton();
  }
 });
 document.getElementById("guernseyNumber").oninput=e=>e.target.value=e.target.value.replace(/\D/g,"").slice(0,2);
+
+const generateBtn=document.getElementById("generateBtn");
+function updateGenerateButton(){
+ const gift=document.querySelector('input[name="giftType"]:checked');
+ const customised=gift?.value==="70";
+ const name=document.getElementById("donorName").value.trim();
+ const email=document.getElementById("donorEmail");
+ const customName=document.getElementById("customName").value.trim();
+ const guernsey=document.getElementById("guernseyNumber").value.trim();
+ const hasCustomisation=!!customName || !!guernsey;
+ const ready=!!sel.value && !!gift && !!name && email.value.trim()!=="" && email.checkValidity() && (!customised || hasCustomisation);
+ generateBtn.disabled=!ready;
+}
+["donorName","donorEmail","customName","guernseyNumber"].forEach(id=>{
+ document.getElementById(id).addEventListener("input",updateGenerateButton);
+});
+sel.addEventListener("change",updateGenerateButton);
+document.querySelectorAll('input[name="giftType"]').forEach(el=>el.addEventListener("change",updateGenerateButton));
+updateGenerateButton();
 
 function generateCode(){
  const d=new Date(),h=Math.floor(Math.random()*0xffff).toString(16).padStart(4,"0").toUpperCase();
