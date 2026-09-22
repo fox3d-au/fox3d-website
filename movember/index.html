@@ -127,10 +127,10 @@ input,select{font:inherit;font-size:17px;padding:13px 14px;border:1px solid #b7c
   <h2>Thank you — next step</h2>
   <p id="popupSummary"></p>
   <div id="popupCode" class="code"></div>
-  <p><strong>Copy this code and use it as your reference when you donate directly to Movember.</strong></p>
+  <p id="donationInstruction"></p>
   <div class="actions">
     <button id="copyBtn" class="button" type="button">Copy Code</button>
-    <a class="button" href="https://au.movember.com/donate/details?memberId=5242133#amount" target="_blank" rel="noopener noreferrer">Go to Donation Page</a>
+    <a id="donateBtn" class="button" href="https://au.movember.com/donate/details?memberId=5242133#amount" target="_blank" rel="noopener noreferrer">Go to Donation Page</a>
     <button id="closeBtn" class="button secondary" type="button">Close</button>
   </div>
 </div>
@@ -246,6 +246,8 @@ document.getElementById("donationForm").onsubmit=async e=>{
  }catch(err){console.error(err);alert("Your order details could not be recorded. Please try again.");return}
  document.getElementById("popupSummary").innerHTML=`You selected the <strong>${c?"Customised":"Default"} Print ($${amount})</strong> for <strong>${team}</strong>.`;
  document.getElementById("popupCode").textContent=code;
+ document.getElementById("donationInstruction").innerHTML=`<strong>Donation amount: $${amount}</strong><br>On the Movember page, enter <strong>$${amount}</strong> in the custom amount box and include your <strong>${code}</strong> reference code in the optional message.`;
+ document.getElementById("donateBtn").textContent=`Donate $${amount} to Movember ↗`;
  document.getElementById("popupOverlay").style.display="flex";
  document.getElementById("copyBtn").onclick=()=>navigator.clipboard.writeText(code).then(()=>alert("Code copied!"));
 };
