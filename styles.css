@@ -162,3 +162,25 @@ textarea{min-height:170px;resize:vertical}
   .repo-row{grid-template-columns:1fr 1fr}
   .repo-row span:nth-child(3),.repo-row span:nth-child(4){display:none}
 }
+/* Contact form */
+.contact-hero{padding-bottom:32px}
+.contact-section{padding-top:48px}
+.contact-layout{display:grid;grid-template-columns:minmax(240px,.75fr) minmax(0,1.25fr);gap:clamp(32px,6vw,90px);align-items:start}
+.contact-aside p{color:var(--muted);line-height:1.7}
+.contact-aside .small{font-size:.95rem}
+.contact-form{gap:20px;padding:clamp(20px,3vw,36px)}
+.contact-form label{display:block;margin-bottom:8px;font-size:.95rem;font-weight:700}
+.contact-form input,.contact-form select,.contact-form textarea{font:inherit;width:100%;padding:14px 16px;border-radius:11px;border:1px solid rgba(255,255,255,.22);background:#0b1722;color:#fff}
+.contact-form input:focus-visible,.contact-form select:focus-visible,.contact-form textarea:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.contact-form select option{background:#0b1722}
+.contact-form textarea{min-height:180px}
+.contact-pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.contact-honeypot{position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.contact-privacy{margin:0;line-height:1.5}
+.contact-status{margin:0;min-height:1.5em;line-height:1.5}
+.contact-status.error{color:#ffaaa6}
+.contact-status.success{color:#a0f0c7}
+.contact-form .btn{justify-self:start}
+.contact-form .btn:disabled{opacity:.55;cursor:not-allowed;transform:none;box-shadow:none}
+@media(max-width:900px){.contact-layout{grid-template-columns:1fr}.contact-section{padding-top:28px}}
+@media(max-width:620px){.contact-pair{grid-template-columns:1fr}}
